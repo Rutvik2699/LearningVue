@@ -1,15 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <!-- <Home/> -->
+  <Home data="Rutvik is here"  msg="Home is here"/>
+  <HomeOne></HomeOne>
+  <template-in-vue></template-in-vue>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import TemplateInVue from './components/TemplateInVue.vue'
+//import HelloWorld from './components/HelloWorld.vue'
+// import Home from './components/Home.vue'
+//import HomeOne from './components/HomeOne.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TemplateInVue
+ //   HelloWorld,
+    // Home,
+
+    //Home one is component to learn the nesting of the components
+    //It is connected to MyUsers,ProductsSi and HomeOne
+    //HomeOne
+
+
   }
 }
 </script>
